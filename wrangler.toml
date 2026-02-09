@@ -28,19 +28,19 @@ name = "zeroforums0-dev"
 
 [[kv_namespaces]]
 binding = "FORUMS_KV"
-id = "75ee7d913a7642219efe0a0ddfb08033"
+id = "KVVVVV"
 
 [[kv_namespaces]]
 binding = "AUTH_KV"
-id = "c3b3af72c1524a499cc0fa8a46202b3c"
+id = "KVVVVV"
 
 [[kv_namespaces]]
 binding = "CHAT_KV"
-id = "02103612b5af4f599f1c009d97bb77ff"
+id = "KVVVVV"
 
 [[kv_namespaces]]
 binding = "FORUM_KV"
-id = "c442c97854e747c599a875bf20318905"
+id = "KVVVVV"
 
 # =========================
 # DURABLE OBJECTS
@@ -87,3 +87,4 @@ RATE_LIMIT_MAX_REQUESTS = "100"
 
 [triggers]
 crons = ["0 0 * * *"]
+
