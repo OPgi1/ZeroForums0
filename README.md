@@ -77,7 +77,11 @@ npm run dev
    ```
 4. **Deploy to Cloudflare**:
    ```bash
-   wrangler publish
+   # Development deployment
+   npm run publish:dev
+   
+   # Production deployment
+   npm run publish:prod
    ```
 
 ### Environment Configuration
