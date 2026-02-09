@@ -26,19 +26,19 @@ zone_id = ""
 # KV Namespaces
 [[kv_namespaces]]
 binding = "FORUMS_KV"
-id = "<your-kv-namespace-id>"
+id = "75ee7d913a7642219efe0a0ddfb08033"
 
 [[kv_namespaces]]
 binding = "AUTH_KV"
-id = "<your-auth-kv-namespace-id>"
+id = "c3b3af72c1524a499cc0fa8a46202b3c"
 
 [[kv_namespaces]]
 binding = "CHAT_KV"
-id = "<your-chat-kv-namespace-id>"
+id = "02103612b5af4f599f1c009d97bb77ff"
 
 [[kv_namespaces]]
 binding = "FORUM_KV"
-id = "<your-forum-kv-namespace-id>"
+id = "c442c97854e747c599a875bf20318905"
 
 # Durable Objects
 [[durable_objects]]
@@ -117,4 +117,5 @@ logpull_options = "fields=ClientIP,ClientRequestHost,ClientRequestMethod,ClientR
 [cache]
 default_ttl = 3600
 default_browser_ttl = 0
+
 default_cache_key = "url"
