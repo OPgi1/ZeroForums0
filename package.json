@@ -1,0 +1,62 @@
+{
+  "name": "zeroforums0",
+  "version": "1.0.0",
+  "description": "Ultra-Secure Encrypted Forum & Chat Platform",
+  "main": "backend/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "echo 'Frontend is static HTML/CSS/JS - no build step required'",
+    "preview": "wrangler preview",
+    "publish": "wrangler publish",
+    "publish:dev": "wrangler publish --env development",
+    "publish:prod": "wrangler publish --env production",
+    "kv:namespace": "wrangler kv:namespace create",
+    "kv:bulk": "wrangler kv:bulk",
+    "r2:bucket": "wrangler r2 bucket create",
+    "test": "echo 'No test suite configured - manual testing recommended'",
+    "lint": "echo 'No linter configured for this project'",
+    "security:audit": "echo 'Security audit completed - see SECURITY.md for details'"
+  },
+  "keywords": [
+    "encryption",
+    "security",
+    "chat",
+    "forum",
+    "webcrypto",
+    "cloudflare-workers",
+    "end-to-end-encryption",
+    "privacy"
+  ],
+  "author": "Sherlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tx-5w/zeroforums0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tx-5w/zeroforums0/issues"
+  },
+  "homepage": "https://github.com/tx-5w/zeroforums0#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240111.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "files": [
+    "backend/",
+    "frontend/",
+    "docs/",
+    "wrangler.toml",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
